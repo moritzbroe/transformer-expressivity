@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Claude Code local settings
+.claude/
+
+# Sudoku reproducer outputs
+sudoku/data/
+sudoku/runs/
+sudoku/checkpoints/
+sudoku/*.log
+sudoku/*.png
